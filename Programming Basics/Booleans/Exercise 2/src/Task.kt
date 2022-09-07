@@ -1,12 +1,24 @@
 // Booleans/Task2.kt
 package booleansExercise2
 
-fun showAnd() {}
+fun showAnd(first: Boolean, second: Boolean) {
+  println("$first && $second == ${first && second}")
+}
 
-fun showOr() {}
+fun showOr(first: Boolean,second: Boolean) {
+  println("$first || $second == ${first || second}")
+}
 
 fun showTruthTable() {
-  TODO()
+  showAnd(first = true, second = true)
+  showAnd(first = false, second = false)
+  showAnd(first = true, second = false)
+  showAnd(first = false, second = true)
+
+  showOr(first = true, second = true)
+  showOr(first = false, second = false)
+  showOr(first = true, second = false)
+  showOr(first = false, second = true)
 }
 
 fun main() {

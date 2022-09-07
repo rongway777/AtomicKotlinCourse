@@ -12,8 +12,8 @@ fun bmiEnglish(
 }
 
 fun main() {
-  val weight = 160
-  val height = 68
+  val weight = 170
+  val height = 62
   val status = bmiEnglish(weight, height)
   println(status)
 }

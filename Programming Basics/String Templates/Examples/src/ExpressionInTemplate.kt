@@ -1,5 +1,6 @@
 // StringTemplates/ExpressionInTemplate.kt
 
+//$后面可以带变量/表达式
 fun main() {
   val condition = true
   println(

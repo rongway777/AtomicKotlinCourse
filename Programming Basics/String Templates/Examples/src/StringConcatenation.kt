@@ -1,5 +1,6 @@
 // StringTemplates/StringConcatenation.kt
 
+// \n is a newline character
 fun main() {
   val s = "hi\n" // \n is a newline character
   val n = 11

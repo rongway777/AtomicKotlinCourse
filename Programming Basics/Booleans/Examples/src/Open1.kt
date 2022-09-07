@@ -1,5 +1,6 @@
 // Booleans/Open1.kt
 
+//if else
 fun isOpen1(hour: Int) {
   val open = 9
   val closed = 20

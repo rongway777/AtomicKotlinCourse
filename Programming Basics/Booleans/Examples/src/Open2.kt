@@ -1,5 +1,6 @@
 // Booleans/Open2.kt
 
+//运算符可以产生boolean
 fun isOpen2(hour: Int) {
   val open = 9
   val closed = 20
