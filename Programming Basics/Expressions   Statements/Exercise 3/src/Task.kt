@@ -3,6 +3,6 @@ package expressionsAndStatementsExercise3
 
 /*
 var i = 1
-println(i-- - --i)
+println(i-- - --i) 1 - (-1)
 */
-val yourGuess: Int = TODO()
+val yourGuess: Int = 2

@@ -1,7 +1,7 @@
 // InKeyword/IterationVsMembership.kt
 
 fun main() {
-  val values = 1..3
+  val values: IntRange = 1..3
   for (v in values) {
     println("iteration $v")
   }

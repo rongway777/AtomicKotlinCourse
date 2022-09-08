@@ -1,5 +1,7 @@
 // Summary1/StringIteration.kt
 
+
+//c is val
 fun main() {
   for (c in "Kotlin") {
     print("$c ")

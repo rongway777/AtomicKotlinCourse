@@ -7,5 +7,5 @@ fun main() {
   }
 }
 /* Output:
-bcd
+bcd   char + int == next char
 */
