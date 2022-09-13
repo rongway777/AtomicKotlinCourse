@@ -15,24 +15,34 @@ class Robot(
     }
   }
 
-  
+  private fun validStep(step: Int): Boolean{
+    return if(step <= 0){
+      println("steps argument must be positive, is $step")
+      false
+    } else true
+
+  }
 
   fun right(steps: Int) {
+    if (!validStep(steps)) return
     x += steps
   x = crossBoundary(x)
   }
 
   fun left(steps: Int) {
+    if (!validStep(steps)) return
     x -= steps
   x = crossBoundary(x)
   }
 
   fun down(steps: Int) {
+    if (!validStep(steps)) return
     y += steps
   y = crossBoundary(y)
   }
 
   fun up(steps: Int) {
+    if (!validStep(steps)) return
     y -= steps
   y = crossBoundary(y)
   }

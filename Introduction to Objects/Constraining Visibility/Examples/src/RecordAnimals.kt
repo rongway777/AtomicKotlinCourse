@@ -7,8 +7,7 @@ private class Animal(val name: String) // [2]
 private fun recordAnimal(              // [3]
   animal: Animal
 ) {
-  println("Animal #$index: ${animal.name}")
-  index++
+  println("Animal #${++index}: ${animal.name}")
 }
 
 fun recordAnimals() {
@@ -18,4 +17,9 @@ fun recordAnimals() {
 
 fun recordAnimalsCount() {
   println("$index animals are here!")
+}
+
+fun main() {
+  recordAnimals()
+  recordAnimalsCount()
 }

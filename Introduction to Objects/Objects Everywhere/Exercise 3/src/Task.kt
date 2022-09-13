@@ -8,8 +8,17 @@ fun isPalIgnoreCase(s: String): Boolean =
   isPalindrome(s.lowercase())
 
 fun isPalIgnoreSpecial(s: String): Boolean {
-  TODO()
+
+  var rst = ""
+  for(c in s){
+    if(c in 'a'..'z' || c in 'A'..'Z'){
+      rst += c
+    }
+  }
+  return isPalIgnoreCase(rst)
 }
+
+
 
 fun main() {
   println(isPalIgnoreSpecial("Was It A Rat I Saw? ..."))  // true

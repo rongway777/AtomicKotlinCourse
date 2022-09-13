@@ -10,7 +10,7 @@ class Counter(var start: Int) {
 class CounterHolder(counter: Counter) {
   private val ctr = counter
   override fun toString() =
-    "CounterHolder: " + ctr
+    "CounterHolder: $ctr"
 }
 
 fun main() {

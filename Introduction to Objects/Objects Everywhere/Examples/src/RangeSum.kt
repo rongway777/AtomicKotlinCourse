@@ -5,5 +5,5 @@ fun main() {
   println(r.sum())
 }
 /* Output:
-55
+55 // sum of 0..10
 */

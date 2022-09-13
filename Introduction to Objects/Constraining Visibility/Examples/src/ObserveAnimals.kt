@@ -1,13 +1,14 @@
 // Visibility/ObserveAnimals.kt
 
+//不能访问别的文件的private[属性]+[方法]+[类]
 fun main() {
   // Can't access private members
   // declared in another file.
-  // Class is private:
+  // Class is private: <==
   // val rabbit = Animal("Rabbit")
-  // Function is private:
+  // Function is private: <==
   // recordAnimal(rabbit)
-  // Property is private:
+  // Property is private: <==
   // index++
 
   recordAnimals()

@@ -1,5 +1,6 @@
 // Packages/FullyQualify.kt
 
+//包名直接访问
 fun main() {
   println(kotlin.math.PI)
   println(kotlin.math.cos(kotlin.math.PI))

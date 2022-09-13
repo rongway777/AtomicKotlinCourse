@@ -1,7 +1,7 @@
 // ObjectsEverywhere/NumberConversions.kt
 
 fun fraction(numerator: Long, denom: Long) =
-  numerator.toDouble() / denom
+  numerator.toFloat() / denom
 
 fun main() {
   val num = 1

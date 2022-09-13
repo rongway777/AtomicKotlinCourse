@@ -6,7 +6,7 @@ class Cookie(
   private fun crumble() =       // [2]
     println("crumble")
 
-  public fun bite() =           // [3]
+  public fun bite() =           // [3] 默认是public
     println("bite")
 
   fun eat() {                   // [4]

@@ -13,4 +13,7 @@ fun main() {
   alien1.name = "Parasite"
   // Can't do this:
   // alien2.name = "Parasite"
+
+  println("alien1 name = ${alien1.name}")
+  println("alien2 name = ${alien2.name}")
 }
